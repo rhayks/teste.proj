@@ -1,0 +1,21 @@
+<h1>Cadastro de Produto</h1>
+<form action="/create" method="post">
+    <div><input type="text" name="produto" placeholder="Digite o nome do produto"></div>
+    <div><input type="text" name="preco" placeholder="Digite o preço"></div>
+    <div><input type="number" name="quantidade" placeholder="Digite a quantidade"></div>
+    <div><input type="text" name="marca" placeholder="Digite a marca"></div>
+    <label for="categoria">Escolha uma categoria:</label>
+    <select id="categoria" name="categoria">
+        <option value="Alimentos e Bebidas">Alimentos e Bebidas</option>
+        <option value="Vestuário e Moda">Vestuário e Moda</option>
+        <option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option>
+        <option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option>
+        <option value="Casa e Decoração">Casa e Decoração</option>
+        <option value="Esportes e Lazer">Esportes e Lazer</option>
+        <option value="Automóveis e Acessórios">Automóveis e Acessórios</option>
+        <option value="Livros, Mídia e Entretenimento">Livros, Mídia e Entretenimento</option>
+        <option value="Saúde e Bem-Estar">Saúde e Bem-Estar</option>
+        <option value="Materiais de Escritório e Papelaria">Materiais de Escritório e Papelaria</option>
+    </select>
+    <br><input type="submit" value="Cadastrar Produto">
+</form>
